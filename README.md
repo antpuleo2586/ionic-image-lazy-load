@@ -1,6 +1,7 @@
 ionic-image-lazy-load
 =====================
 
+Forked from https://github.com/paveisistemas/ionic-image-lazy-load
 
 ## Demo
 http://codepen.io/mvidailhet/pen/yNOGzY
