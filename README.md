@@ -36,8 +36,8 @@ And set the `image-lazy-src` directive on the image attribute instead of `src`:
 
 NEW: set a default image incase the original fails, via the `default-image-on-fail` directive on the image attribute:
 
-```javascript
- <img default-image-on-failc="images/default.jpg">
+```html
+ <img default-image-on-fail="images/default.jpg">
 ```
 
 
