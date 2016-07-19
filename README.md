@@ -8,15 +8,6 @@ http://codepen.io/pavei/pen/oFpCy
 
 ## Quick Start
 
-Install using bower
-
-```sh
-bower install ion-image-lazy-load --save
-```
-
-or
-
-
 Download the file JS *ionic-image-lazy-load.js*, save on your project and load it on your *index.html*.
 
 
@@ -42,6 +33,13 @@ And set the `image-lazy-src` directive on the image attribute instead of `src`:
 ```javascript
  <img image-lazy-src="{{item.thumbnail}}">
 ```
+
+NEW: set a default image incase the original fails, via the `default-image-on-fail` directive on the image attribute:
+
+```javascript
+ <img default-image-on-failc="images/default.jpg">
+```
+
 
 You can also use it as a background-image for an element by setting the `image-lazy-background-image` paramameter to true:
 ``` javascript
